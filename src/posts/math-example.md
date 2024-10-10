@@ -1,4 +1,6 @@
 ---
+layout: doc
+outline: deep
 title: 'Example for math equations by mathjax'
 date: 2020-01-01
 ---
