@@ -2,9 +2,18 @@
 import { ref, computed } from 'vue'
 import { data as posts } from './posts.data.ts'
 
-// 排序文章，按照倒序排列
+// 解析日期字符串为 Date 对象
+const parseDate = (dateString) => {
+  return new Date(dateString)
+}
+
+// 排序文章，按照日期倒序排列
 const sortedPosts = computed(() => {
-  return [...posts].sort((a, b) => parseInt(b.url.replace('.html', '')) - parseInt(a.url.replace('.html', '')))
+  return [...posts].sort((a, b) => {
+    const dateA = parseDate(a.frontmatter.date)
+    const dateB = parseDate(b.frontmatter.date)
+    return dateB - dateA // 按照日期倒序排列
+  })
 })
 
 // 格式化日期
