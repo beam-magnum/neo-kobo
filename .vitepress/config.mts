@@ -1,4 +1,7 @@
 import { defineConfig } from 'vitepress'
+// import mathjax3 from 'markdown-it-mathjax3';
+
+// const customElements = ['mjx-container'];
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -17,5 +20,14 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/gingerbeam' }
     ]
+  },
+
+  // markdown: {
+  //   config: (md) => {
+  //     md.use(mathjax3);
+  //   },
+  // },
+  markdown: {
+    math: true
   }
 })
