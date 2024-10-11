@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: page
 ---
 
 <div class='mt-20'>

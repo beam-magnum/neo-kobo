@@ -11,6 +11,7 @@ export default defineConfig({
   // srcDir: 'src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/tkk3.jpg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Posts', link: 'src/posts' },
@@ -19,14 +20,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/gingerbeam' }
-    ]
-  },
+    ],
 
-  // markdown: {
-  //   config: (md) => {
-  //     md.use(mathjax3);
-  //   },
-  // },
+    docFooter: { prev: '上一篇', next: '下一篇' },
+    lastUpdatedText: "最近更新时间",
+  },
   markdown: {
     math: true
   }
