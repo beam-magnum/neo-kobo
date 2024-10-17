@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "kobo"
-  text: "kobo dot tssn dot ac dot cn, vitepress refusion."
-  tagline: My great project tagline
+  text: "还没有想好text怎么写"
+  tagline: 还没有想好tagline怎么写
 
   image:
     src: /tkk3.jpg           # text 和 tagline 区域旁的图片

@@ -6,12 +6,14 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "kobo",
+  titleTemplate: ':title - Moyu Kobo',
   description: "kobo dot tssn dot ac dot cn, vitepress refusion.",
+  head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
 
   // srcDir: 'src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/tkk3.jpg',
+    logo: '/tkk1.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Posts', link: 'src/posts' },
