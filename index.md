@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "kobo"
-  text: "还没有想好text怎么写"
-  tagline: 还没有想好tagline怎么写
+  name: "Gingerbeam"
+  text: "is a beam magnum that shots ginger ale."
+  tagline: Currently a student majoring in cs. More can be found in the resume.
 
   image:
-    src: /tkk3.jpg           # text 和 tagline 区域旁的图片
-    alt: VitePress           # 图片的alt文字
+    src: /law_cat.jpg          # text 和 tagline 区域旁的图片
+    alt: Shot in front of School of Law, PKU          # 图片的alt文字
 
   actions:
     - theme: brand
@@ -18,5 +18,8 @@ hero:
     - theme: alt
       text: Resume
       link: /src/resume
+
+# footer: Nein Licensed | Copyright © 2018-present Gingerbeam
 ---
+
 

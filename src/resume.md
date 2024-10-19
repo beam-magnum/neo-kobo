@@ -22,6 +22,12 @@ I am also interested in novel technologies in blockchain. I am with the [PKU Blo
 
 ## Curriculum
 
+<!-- | | |
+| --- | --- |
+| Master of Electronic and Information Engineering, Peking University| 2023 - Pres. |
+| Bachelor of Engineering in Information Security, Beihang University | 2018 - 2022 |
+| Thesis: Faster Homomorphic Linear Transformation with Microsoft SEAL | | -->
+
 <table>
     <tr>
         <td><b>Master of Electronic and Information Engineering</b>, Peking University</td>

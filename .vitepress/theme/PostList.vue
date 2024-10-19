@@ -27,7 +27,7 @@ const formatDate = (dateString) => {
 <template>
   <div class="blog-posts-container">
     <div class="content">
-      <h1 class="title">All Posts</h1>
+      <!-- <h1 class="title">All Posts</h1> -->
       <ul class="posts-list">
         <li v-for="post in sortedPosts" :key="post.url" class="post-item">
           <a :href="post.url" class="post-link">{{ post.frontmatter.title }}</a>

@@ -4,6 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import PostList from './PostList.vue'
 import './style.css'
+import "./style/index.css"; //引入自定义的样式
 
 export default {
   extends: DefaultTheme,
