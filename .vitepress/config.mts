@@ -5,8 +5,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "kobo",
-  titleTemplate: ':title - Moyu Kobo',
+  title: "Side - 7",
+  titleTemplate: ':title',
   description: "kobo dot tssn dot ac dot cn, vitepress refusion.",
   head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
 
